@@ -8,6 +8,25 @@ body {
   height: 100%;
 }
 
+.o-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  @include respond-above(medium) {
+    width: 50%;
+  }
+}
+.o-media__img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.o-media__txt {
+  flex: 1;
+}
+
 .c-site-header {
   background: $cornflower-blue;
   padding: 1em;
@@ -28,6 +47,9 @@ body {
   background: $pastel-green;
   height: 100%;
   padding: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   @include respond-above(medium) {
     flex: 3 0px;
   }
