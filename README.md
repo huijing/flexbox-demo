@@ -1,8 +1,7 @@
-###A blank HTML5 template for experiments
+##Exploring flexbox
 
-1. `git clone git@github.com:huijing/blank-html5.git`
-2. `npm install`
-3. `gulp`
+An exploration of the different flexbox techniques and how to use them for responsive designs.
 
-- Styles go in the styles.scss file, and will be compiled by Gulp
-- Scripts go into the js folder, and will be concatenated by Gulp
+###References
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
