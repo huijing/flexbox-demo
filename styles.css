@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url("fonts/robotoslab-light.eot");
+  src: url("fonts/robotoslab-light.eot?#iefix") format("embedded-opentype"), url("fonts/robotoslab-light.woff2") format("woff2"), url("fonts/robotoslab-light.woff") format("woff"), url("fonts/robotoslab-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url("fonts/robotoslab-bold.eot");
+  src: url("fonts/robotoslab-bold.eot?#iefix") format("embedded-opentype"), url("fonts/robotoslab-bold.woff2") format("woff2"), url("fonts/robotoslab-bold.woff") format("woff"), url("fonts/robotoslab-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font: 16px/1 sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, p, ol, ul {
+  margin: 0;
+  padding: 0; }
+
+main, li {
+  display: block; }
+
+h1, h2, h3, h4 {
+  font-size: inherit; }
+
+strong {
+  font-weight: bold; }
+
+a, button {
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition: background .3s;
+  transition: background .3s; }
+
+a {
+  text-decoration: none; }
+
+input {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1; }
+
+button, select {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer; }
+
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+:focus {
+  outline: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-size: 0.8rem;
+  font-family: "Roboto Slab", Rockwell, serif;
+  font-weight: 300;
+  height: 100%; }
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 1rem; } }
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%; }
+
+.c-site-header {
+  background: #538cff;
+  padding: 1em; }
+
+.c-site-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+  .c-site-content > * {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+            flex: 1 100%; }
+  @media screen and (min-width: 480px) {
+    .c-site-content {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1; } }
+
+.c-article {
+  background: #89ea72;
+  height: 100%;
+  padding: 1em; }
+  @media screen and (min-width: 768px) {
+    .c-article {
+      -webkit-box-flex: 3;
+      -webkit-flex: 3 0px;
+          -ms-flex: 3 0px;
+              flex: 3 0px; } }
+
+@media screen and (min-width: 480px) {
+  .c-aside {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
+        -ms-flex: 1 auto;
+            flex: 1 auto; } }
+
+@media screen and (min-width: 768px) {
+  .c-aside {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 10em;
+        -ms-flex: 0 0 10em;
+            flex: 0 0 10em; } }
+
+.c-aside__left {
+  background: #00a0eb;
+  padding: 1em; }
+  @media screen and (min-width: 768px) {
+    .c-aside__left {
+      -webkit-box-ordinal-group: 0;
+      -webkit-order: -1;
+          -ms-flex-order: -1;
+              order: -1; } }
+
+.c-aside__right {
+  background: #c5faff;
+  padding: 1em; }
+
+.c-site-footer {
+  background: #26a248;
+  padding: 1em; }
